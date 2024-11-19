@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/4313a664ab.js" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="icon" type="image/x-icon" href="../media/controllermuseum_logo.png">
+    <title>A to Start</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+</head>
+
+<body>
+    <!-- HEADER AND NAVIGATION-->
+    <div class="header-container">
+        <header class="wrapper clearfix">
+            <div class="title-container">
+                <div class="title">A to Start</div>
+            </div>
+
+            <!--Navigation bar-->
+            <nav>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    
+                    <div class="navicons" id="container_house">
+                        <a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i>Home</a>
+                    </div>
+
+                    <div class="navicons" id="container_plus">
+                        <a href="timeline.html" class="nav-link"><i class="fa-solid fa-clock-rotate-left"></i>Timeline</a>
+                    </div>
+
+                    <div class="navicons" id="container_signin">
+                        <a href="#" id="submission" class="nav-link"><i class="fa-solid fa-comment-medical"></i>Suggestion</a>
+                    </div>
+
+                    <div class="navicons" id="container_user">
+                        <a href="aboutus.html" class="nav-link"><i class="fa-solid fa-user"></i>About Us</a>
+                    </div>
+
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar" id="bar1"></span>
+                <span class="bar" id="bar2"></span>
+                <span class="bar" id="bar3"></span>
+            </div>
+
+            <img class= "logo" src="../media/controllermuseum_logo.png" alt="logo">
+             
+            </nav>
+        </header>
+    </div>  
+      
+
+    <!-- Home page -->
+    <div class="main-container">
+        <div class="main wrapper">
+            <label id="welcomeText">Welcome to the Controller Museum!</label>
+            <img src="../media/controllerGif.gif" id ="controllers">
+            <label id="aToStartText">Press A to start your journey</label>
+        </div>
+
+         <!-- submission / sign up page code -->
+         <div id="submissionPageContainer">
+            <i id="closeSubmissionPage" class="fa fa-times"></i>
+            <form id="submissionForm">
+                <label id="submissionTitle">Submit a controller you would like to see!</label>
+
+                <input type="text" id="submit" name="submit" placeholder="Controller name">
+                <input id="submissionButton" type="submission" value="Submit">
+
+            </form>
+        </div>
+</body>
+</html>
